@@ -44,13 +44,13 @@ header nav a:hover{
 .jogo-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/SuperMarioBros3.png");
-    height: 400px;
+    height: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .jogo-principal .descricao{
@@ -64,7 +64,7 @@ header nav a:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.botao{
+.button{
     background-color:rgba(0,0,0,.50);
     border: none;
     color: white;
@@ -74,14 +74,15 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
     text-decoration: none;
+    margin-bottom: 15%;
 }
 
-.botao:hover{
+.button:hover{
     background-color: white;
     color: black;
 }
 
-.botao i{
+.button i{
     margin-right: 8px;
 }
 
@@ -90,23 +91,7 @@ header nav a:hover{
 }
 
 .jogo-principal .container{
-    width: 70%;
+    width: 80%;
 }
 
-.box-jogo{
-    height: 100%;
-    width: 100%;
-    display: block;
-    cursor: pointer;
-}
 
-.carrosel-jogos{
-    margin-bottom: 5px;
-}
-
-.carrosel-jogos .subtitulo{
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
